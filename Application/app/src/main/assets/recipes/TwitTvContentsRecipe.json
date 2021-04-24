@@ -1,0 +1,16 @@
+{
+  "cooker": "DynamicParser",
+  "format": "xml",
+  "model": "com.amazon.android.model.content.Content",
+  "translator": "ContentTranslator",
+  "modelType": "array",
+  "query": "//item[./category='$$par0$$']",
+  "matchList": [
+    "title/#text@mTitle",
+    "guid/#text@mId",
+    "itunes:subtitle/#text@mDescription",
+    "media:content/#attributes/url@mUrl",
+    "media:content/media:thumbnail/#attributes/url@mCardImageUrl",
+    "media:content/media:thumbnail/#attributes/url@mBackgroundImageUrl"
+  ]
+}

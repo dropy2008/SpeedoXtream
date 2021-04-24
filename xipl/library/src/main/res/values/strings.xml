@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IPTV Provider library</string>
+    <string name="cannot_start_voice_search">Cannot start voice search. Device not compatible!</string>
+    <string name="channel_stream_failure">Stream failure. Please try again later or contact your provider</string>
+    <string name="channel_sync_failure">Could not sync the channels. Possible invalid URL.</string>
+    <string name="content_not_available">Content not available.</string>
+    <string name="no_results_found">No results found.</string>
+    <string name="record_audio_not_granted">Record audio permissions not granted</string>
+    <string name="search_results">Search results</string>
+    <string name="stream_failure_retry">Stream failure, retrying&#8230;</string>
+    <string name="video_not_playable">The video cannot be played! Please contact %1$s.</string>
+</resources>
